@@ -1,0 +1,117 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.body{
+    background-image: url(./background-book-issue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.background-book{
+    background-image: url(./background-issue-records.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.book-issue-form{
+    width: 55%;
+    max-width: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f79b4a;
+
+}
+
+.book-record-form{
+    width: 55%;
+    max-width: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #bd71db;
+
+}
+
+.book-issue-form h1{
+    color: blue;
+}
+
+.form{
+    border: 1px solid #ffd9d9;
+    margin: 7px 0px;
+    padding: 6px 20px;
+    border-radius: 8px;
+
+}
+
+
+.form input{
+    width: 100%;
+    margin-top:5px;
+    border:none;
+    background: none;
+    outline: none;
+    color: rgb(17, 147, 147);
+}
+
+.button{
+    width: 20%;
+    display: inline-block;
+    background-color: #de2214;
+    padding: 14px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 8px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.button:hover{
+    color: #de2214;
+    background-color: #fff;
+}
+
+
+.book-issue-form label{
+    font-size:20px;
+    color: rgb(255, 0, 0);
+    display: block;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.book-record-form label{
+    font-size:20px;
+    color: rgb(72, 0, 255);
+    display: block;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.book-record-form .form input{
+    width: 100%;
+    margin-top:5px;
+    border:none;
+    background: none;
+    outline: none;
+    color: rgb(234, 255, 1);
+}

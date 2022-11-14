@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+.background-startup{
+    text-align: center;
+    padding-top:50px ;
+}
+
+.records{
+    background-color: aqua;
+    height: 80vh;
+    width: 50vw;
+    margin-left: 400px;
+    border: 10px solid aqua;
+	border-radius: 10px ;
+}
+table, th, td{
+    margin: auto;
+    text-align: center;
+    border: 3px solid rgb(240, 93, 14);
+}
+
+.tablecard{
+    margin-top: 50px;
+}
+
+.tablecard th{
+    font-size: 25px;
+    padding-left: 22px;
+    padding-right: 40px;
+  color: rgb(47, 32, 255);
+
+
+}
+
+.tablecard td{
+    font-size: 20px;
+    padding-left: 22px;
+    padding-right: 40px;
+  color: rgb(208, 0, 255);
+  
+
+
+}
+
+.library{
+    color: rgb(255, 0, 0);
+}
+
+
+.background-startup{
+    background-image: url(./background-records.jpg);
+   
+        height:100vh;
+        color:white;
+        font-size:50px,;
+        background-size: cover;
+        background-repeat:no-repeat
+    }
